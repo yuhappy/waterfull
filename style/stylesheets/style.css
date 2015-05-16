@@ -1,0 +1,58 @@
+/* line 4, ../sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, ../sass/style.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 11, ../sass/style.scss */
+.clearfix::before, .clearfix::after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 16, ../sass/style.scss */
+.clearfix::after {
+  clear: both;
+}
+
+/* line 21, ../sass/style.scss */
+#main {
+  position: relative;
+}
+
+/* line 25, ../sass/style.scss */
+.box {
+  padding: 15px 0 0 15px;
+  float: left;
+}
+/* line 28, ../sass/style.scss */
+.box .pic {
+  padding: 10px;
+  border: 1px solid #C0C0C0;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -moz-box-shadow: 3px 3px 5px #C8C8C8;
+  -webkit-box-shadow: 3px 3px 5px #C8C8C8;
+  box-shadow: 3px 3px 5px #C8C8C8;
+}
+/* line 33, ../sass/style.scss */
+.box .pic img {
+  width: 170px;
+}
+
+/* line 40, ../sass/style.scss */
+#top {
+  position: fixed;
+  right: 1%;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
+  background: url(../../image/top_bg.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
